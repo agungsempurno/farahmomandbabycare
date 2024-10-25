@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
+
+body,
+html {
+  background-color: rgb(249, 237, 229);
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  color: #0c0a47;
+}
+
+section {
+  padding-top: 8rem;
+}
+
+.parallax {
+  background-image: url(parallax.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.parallaxtr {
+  background-image: url(backgroundtreat.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+
+.faqini {
+  background-image: url(backgroundtreat.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.card-treat {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-treat:hover {
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+  background-color: orange;
+  color: white;
+}
+.card1-img-top {
+  transition: all 0.5s ease-in-out;
+}
+.card1-img-top:hover {
+  transform: scale(1.1);
+}
+
+.promo {
+  font-family: poppins;
+  color: #0c0a47;
+  font-weight: bold;
+  margin-left: 7rem;
+}
+
+.foto {
+  border-radius: 25%;
+}
+
+h1 {
+  font-family: "Poppins";
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-bg: orange;
+  --bs-nav-link-color: rgb(0, 0, 0);
+}
+
+.accordion {
+  --bs-accordion-btn-bg: orange;
+  --bs-accordion-active-bg: orange;
+  --bs-accordion-border-width: 0px;
+}
+
+.bi-credit-card-fill {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bi-geo-alt-fill {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bi-headset {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-infor {
+  transition: all 0.5s ease-in-out;
+}
+
+.card-infor:hover {
+  background-color: #000000;
+  color: white;
+  transform: scale(1.05);
+}
+
+.discount {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: #ffffff;
+  background-color: rgb(240, 218, 102);
+  padding: 2px 8px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.card-text {
+  font-family: poppins;
+  color: gray;
+  font-weight: 500;
+}
+
+.text-title {
+  font-weight: 100;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card3-img-top {
+  margin-left: 5rem;
+  padding-top: 1rem;
+}
+
+.btn-order:hover {
+  background-color: #979797;
+  color: white;
+  box-shadow: 0 4px 20px rgba(105, 105, 105, 0.3);
+}
